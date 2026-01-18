@@ -39,6 +39,7 @@ with open("ans1.txt", "wb") as f:
     print(f"Target Addr: {hex(target_address)}")
 ```
 - **结果**：
+![Problem 1 Result](images/1.png)
 
 ### Problem 2:
 - **分析**：
@@ -78,6 +79,7 @@ with open("ans2.txt", "wb") as f:
     print(f"Payload generated: {len(payload)} bytes written to ans2.txt")
 ```
 - **结果**：
+![Problem 2 Result](images/2.png)
 
 ### Problem 3: 
 - **分析**：
@@ -124,6 +126,7 @@ with open("ans3.txt", "wb") as f:
     print(f"Payload generated: {len(payload)} bytes. Shellcode size: {len(shellcode)}")
 ```
 - **结果**：
+![Problem 3 Result](images/3.png)
 
 ### Problem 4: 
 - **分析**：
@@ -155,6 +158,7 @@ with open("ans4.txt", "wb") as f:
     print("Payload generated for Problem 4.")
 ```
 - **结果**：
+![Problem 4 Result](images/4.png)
 
 ## 思考与总结
 - 本次实验通过四个层层递进的题目，使我深入理解了二进制程序中的典型漏洞及其利用方式：
